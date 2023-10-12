@@ -10,7 +10,7 @@ namespace Core.Interfaces
     public interface IGenericRepository<T> where T : BaseEntity
     {
         Task<T>GetByIdAsync(int id);
-        Task<IEnumerable<T>>GetByIdAsync();
+        Task<IEnumerable<T>>GetAllAsync();
         IEnumerable<T>Find(Expression<Func<T, bool>> expression); // Metodo que permite realizar busquedas con LinQ
         
         //Este metodo se define para incrementar la paginación de consultas, Segmenta el tamaño de las consultas y define un parametro de busqueda 
