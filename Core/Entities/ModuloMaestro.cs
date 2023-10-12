@@ -10,7 +10,6 @@ namespace Core.Entities
         public string NombreModulo { get; set; }
         public DateTime FechaCreacion { get; set; }
         public DateTime FechaModificacion { get; set; }
-        public int MyProperty { get; set; }
         public IEnumerable<RolVsMaestro> RolVsMaestros { get; set; }
         public IEnumerable<MaestroVsSubmodulo> MaestrosVsSubmodulos { get; set; }
     }

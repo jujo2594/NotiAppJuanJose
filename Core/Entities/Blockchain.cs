@@ -12,7 +12,7 @@ namespace Core.Entities
         public DateTime FechaModificacion { get; set; }
         public int IdTipoNotificacionFk { get; set; }
         public TipoNotificacion TiposNotificaciones { get; set; }
-        public int IdHiloRespuesta { get; set; }
+        public int IdHiloRespuestaFk { get; set; }
         public HiloRespuestaNotificacion HiloRespuestasNotificaciones { get; set; }
         public int IdAuditoriaFk { get; set; }
         public Auditoria Auditorias { get; set; }

@@ -11,6 +11,5 @@ namespace Core.Entities
         public DateTime FechaCreacion { get; set; }
         public DateTime FechaModificacion { get; set; }
         public IEnumerable<GenericoVsSubmodulo> GenericosVsSubmodulos { get; set; }
-        
     }
 }

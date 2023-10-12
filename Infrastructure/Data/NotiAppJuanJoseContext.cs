@@ -23,6 +23,13 @@ public class NotiAppJuanJoseContext : DbContext
     public DbSet<Radicado> Radicados { get; set; }
     public DbSet<TipoNotificacion> TiposNotificaciones { get; set; }
     public DbSet<TipoRequerimiento> TiposRequerimientos { get; set; }
+    public DbSet<Rol> Roles { get; set; }
+    public DbSet<PermisoGenerico> PermisosGenericos { get; set; }
+    public DbSet<RolVsMaestro> RolesVsMaestros { get; set; }
+    public DbSet<GenericoVsSubmodulo> GenericosVsSubmodulos { get; set; }
+    public DbSet<ModuloMaestro> ModulosMaestros { get; set; }
+    public DbSet<MaestroVsSubmodulo> MaestrosVsSubmodulos { get; set; }
+    public DbSet<Submodulo> Submodulos   { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -30,3 +37,4 @@ public class NotiAppJuanJoseContext : DbContext
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
     }
 }
+    
