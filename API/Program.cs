@@ -1,3 +1,6 @@
+using Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +10,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Para poder usar el DbContext
+builder.Services.AddDbContext<NotiAppJuanJoseContext>(options =>
+{
+    string connectionString = builder.Configuration.GetConnectionString("MySqlConex");
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+});
 
 var app = builder.Build();
 
