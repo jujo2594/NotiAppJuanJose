@@ -12,7 +12,7 @@ namespace Core.Interfaces
         Task<T>GetByIdAsync(int id);
         Task<IEnumerable<T>>GetAllAsync();
         IEnumerable<T>Find(Expression<Func<T, bool>> expression); // Metodo que permite realizar busquedas con LinQ
-        
+
         //Este metodo se define para incrementar la paginación de consultas, Segmenta el tamaño de las consultas y define un parametro de busqueda 
         Task<(int totalRegistros, IEnumerable<T>registros)>GetAllAsync(int pageIndex, int pageSize, String search);
         void Add(T entity);
