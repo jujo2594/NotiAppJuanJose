@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9XQaNa5igEvIMd2CJm+pyFFMatS5upIOFNmwoKeJFg3y865bcnYNS5iKgxBvWrPm2nJIjVWPc+8YOZ8wDUw02A==",
+  "dgSpecHash": "HIQydA42G4osVcmgA6bFVNK1YqbQwEV3frBtMMwutxVNBp7zaEqd4J2pX98tgNK5q5Bf8E7LLXywriqZSC8mtg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Juan J Galan\\Documents\\JuanJose\\Estudio\\CAMPUSLAND\\.NET\\NotiAppJuanJose\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Juan J Galan\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\Juan J Galan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Juan J Galan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Juan J Galan\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
@@ -41,6 +42,7 @@
     "C:\\Users\\Juan J Galan\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\Juan J Galan\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Juan J Galan\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
+    "C:\\Users\\Juan J Galan\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\Juan J Galan\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "C:\\Users\\Juan J Galan\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
     "C:\\Users\\Juan J Galan\\.nuget\\packages\\serilog.aspnetcore\\7.0.0\\serilog.aspnetcore.7.0.0.nupkg.sha512",

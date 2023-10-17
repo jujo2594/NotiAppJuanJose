@@ -1,3 +1,5 @@
+using API.Extensions;
+using AspNetCoreRateLimit;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,6 +10,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.ConfigureRateLimiting();
+builder.Services.ConfigureCors();
+builder.Services.AddAplicationService();
+
 builder.Services.AddSwaggerGen();
 
 //Para poder usar el DbContext
@@ -25,6 +32,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("CorsPolicy");
+app.UseIpRateLimiting();
 
 app.UseHttpsRedirection();
 
