@@ -1,3 +1,4 @@
+using System.Reflection;
 using API.Extensions;
 using AspNetCoreRateLimit;
 using Infrastructure.Data;
@@ -12,6 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.ConfigureRateLimiting();
+builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 builder.Services.ConfigureCors();
 builder.Services.AddAplicationService();
 

@@ -5,8 +5,7 @@ using System.Threading.Tasks;
 
 namespace API.Dtos;
 
-public class AuditoriaDto : BaseDto
+public class ModuloMaestroDto : BaseDto
 {
-    public string NombreUsuario { get; set; }
-    public int DesAccion {get; set;} 
+    public string NombreModulo { get; set; }
 }

@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace API.Dtos;
 
-public class AuditoriaDto : BaseDto
+public class RolVsMaestroDto : BaseDto
 {
-    public string NombreUsuario { get; set; }
-    public int DesAccion {get; set;} 
+    public int IdRolFk { get; set; }
+    public int IdMaestroFk { get; set; }
 }
