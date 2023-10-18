@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Juan J Galan\\.nuget\\packages\\": {}
+    "C:\\Users\\APM02-050\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Juan J Galan\\Documents\\JuanJose\\Estudio\\CAMPUSLAND\\.NET\\NotiAppJuanJose\\Core\\Core.csproj",
+      "projectUniqueName": "c:\\Users\\APM02-050\\Documents\\JuanJose\\.NET\\NotiAppJuanJose\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Juan J Galan\\Documents\\JuanJose\\Estudio\\CAMPUSLAND\\.NET\\NotiAppJuanJose\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\Juan J Galan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Juan J Galan\\Documents\\JuanJose\\Estudio\\CAMPUSLAND\\.NET\\NotiAppJuanJose\\Core\\obj\\",
+      "projectPath": "c:\\Users\\APM02-050\\Documents\\JuanJose\\.NET\\NotiAppJuanJose\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\APM02-050\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\APM02-050\\Documents\\JuanJose\\.NET\\NotiAppJuanJose\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Juan J Galan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\APM02-050\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

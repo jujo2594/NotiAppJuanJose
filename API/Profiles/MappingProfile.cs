@@ -27,6 +27,6 @@ public class MappingProfile : Profile
         CreateMap<RolVsMaestro, RolVsMaestroDto>().ReverseMap();
         CreateMap<Submodulo, SubmoduloDto>().ReverseMap();
         CreateMap<TipoNotificacion, TipoNotificacionDto>().ReverseMap();
-        CreateMap<TipoRequerimiento, TipoNotificacionDto>().ReverseMap();
+        CreateMap<TipoRequerimiento, TipoRequerimientoDto>().ReverseMap();
     }
 }
