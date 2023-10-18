@@ -77,7 +77,7 @@ namespace Infrastructure.UnitOfWork
                 return _formatos;
             }
         }
-        public IGenericoVsSubmodulo GenericosVsModulos
+        public IGenericoVsSubmodulo GenericosVsSubmodulos
         {
             get
             {
@@ -110,7 +110,7 @@ namespace Infrastructure.UnitOfWork
                 return _maestrosVsSubmodulos;
             }
         }
-        public IModuloMaestro ModuloMaestro
+        public IModuloMaestro ModulosMaestros
         {
             get
             {
@@ -121,7 +121,7 @@ namespace Infrastructure.UnitOfWork
                 return _modulosMaestros;
             }
         }
-        public IModuloNotificacion ModuloNotificacion
+        public IModuloNotificacion ModulosNotificaciones
         {
             get
             {
@@ -187,7 +187,7 @@ namespace Infrastructure.UnitOfWork
                 return _submodulos;
             }
         }
-        public ITipoNotificacion TiposModificaciones
+        public ITipoNotificacion TiposNotificaciones
         {
             get
             {

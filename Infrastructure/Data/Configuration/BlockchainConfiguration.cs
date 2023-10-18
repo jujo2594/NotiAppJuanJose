@@ -31,8 +31,8 @@ namespace Infrastructure.Data.Configuration
             .WithMany(p => p.Blockchains)
             .HasForeignKey(p => p.IdTipoNotificacionFk);
 
-            builder.HasOne(p => p.HiloRespuestasNotificaciones)
-            .WithMany(p => p.blockchains)
+            builder.HasOne(p => p.HilosRespuestasNotificaciones)
+            .WithMany(p => p.Blockchains)
             .HasForeignKey(p => p.IdHiloRespuestaFk);
 
             builder.HasOne(p => p.Auditorias)

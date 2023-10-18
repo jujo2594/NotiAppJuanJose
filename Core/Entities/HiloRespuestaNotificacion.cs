@@ -10,7 +10,7 @@ namespace Core.Entities
         public string NombreTipo { get; set; }
         public DateTime FechaCreacion { get; set; }
         public DateTime FechaModificacion { get; set; }
-        public IEnumerable<Blockchain> blockchains { get; set; }
+        public IEnumerable<Blockchain> Blockchains { get; set; }
         public IEnumerable<ModuloNotificacion> ModulosNotificaciones { get; set; }
     }
 }

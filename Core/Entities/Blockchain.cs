@@ -13,7 +13,7 @@ namespace Core.Entities
         public int IdTipoNotificacionFk { get; set; }
         public TipoNotificacion TiposNotificaciones { get; set; }
         public int IdHiloRespuestaFk { get; set; }
-        public HiloRespuestaNotificacion HiloRespuestasNotificaciones { get; set; }
+        public HiloRespuestaNotificacion HilosRespuestasNotificaciones { get; set; }
         public int IdAuditoriaFk { get; set; }
         public Auditoria Auditorias { get; set; }
 

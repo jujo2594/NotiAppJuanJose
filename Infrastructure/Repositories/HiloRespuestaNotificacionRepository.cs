@@ -21,7 +21,7 @@ namespace Infrastructure.Repositories
         public override async Task<IEnumerable<HiloRespuestaNotificacion>> GetAllAsync()
         {
             return await _context.HilosRespuestasNotificaciones
-                .Include(p => p.blockchains)
+                .Include(p => p.Blockchains)
                 .Include(p => p.ModulosNotificaciones) //Se usa 'Include' o 'ThenInclude' ??
                 .ToListAsync();
         }
@@ -36,7 +36,7 @@ namespace Infrastructure.Repositories
             query = query.OrderBy(p => p.Id);
             var totalRegistros = await query.CountAsync();
             var registros = await query
-                .Include(u => u.blockchains)
+                .Include(u => u.Blockchains)
                 .Include(v => v.ModulosNotificaciones) //Preguntar si está relación es correcta o no ?? 
                 .Skip((pageIndex - 1)*pageSize)
                 .Take(pageIndex)
